@@ -6,7 +6,7 @@ layout: default
         <div class="winery-intro">
             <div class="winery-text">
             {%- for paragraph in site.data.content.about.paragraphs %}
-                <p>{{ paragraph }}</p>
+                <p>{{ paragraph | strip }}</p>
             {%- endfor %}
             </div>
             <div class="winery-image">
@@ -26,14 +26,12 @@ layout: default
             <div class="wine-details">
                 <h3>{{ site.data.content.wine.name }}</h3>
                 <div class="wine-description">
-                {%- for paragraph in site.data.content.wine.description %}
-                    <p>{{ paragraph }}</p>
-                {%- endfor %}
+                    <p>{{ site.data.content.wine.description | strip }}</p>
                     <p><b>Preis:</b> {{ site.data.content.wine.price }}</p>
                 </div>
                 <div class="tasting-notes">
                     <h4>{{ site.data.content.wine.tasting.heading }}</h4>
-                    <p>{{ site.data.content.wine.tasting.note }}</p>
+                    <p>{{ site.data.content.wine.tasting.note | strip }}</p>
                 </div>
             </div>
         </div>

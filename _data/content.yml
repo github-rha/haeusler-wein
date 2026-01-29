@@ -14,11 +14,13 @@ header:
 # About Section
 about:
   paragraphs:
-    - "2005 wurden von den Familien Häusler und Schaffner in der Reblage \"Auf Offenburg\" in Muttenz 14 Aren Zweigelt angepflanzt. Seit Beginn steht unser Weingut für Leidenschaft und Präzision. Die erste Ernte erfolgte 2007, von Anfang an gekeltert vom renommierten Weingut Jauslin. Später wurde ca. ein Drittel der Fläche mit Diolinoir bestockt und die resultierende Cuvée konnte nationale Anerkennung erzielen: Auszeichnungen beim Grand Prix du Vin Suisse 2020 und 2021."
-    - "Unsere Werte spiegeln sich in der Qualitätsarbeit im Rebberg und der Zusammenarbeit mit dem Weingut Jauslin wider. 2024 läutete die Familie Häusler die Übergabe an die nächste Generation ein – für eine Zukunft, die auf Tradition und Innovation baut."
+    - |
+      2005 wurden von den Familien Häusler und Schaffner in der Reblage "Auf Offenburg" in Muttenz 14 Aren Zweigelt angepflanzt. Seit Beginn steht unser Weingut für Leidenschaft und Präzision. Die erste Ernte erfolgte 2007, von Anfang an gekeltert vom renommierten Weingut Jauslin. Später wurde ca. ein Drittel der Fläche mit Diolinoir bestockt und die resultierende Cuvée konnte nationale Anerkennung erzielen: Auszeichnungen beim Grand Prix du Vin Suisse 2020 und 2021.
+    - |
+      Unsere Werte spiegeln sich in der Qualitätsarbeit im Rebberg und der Zusammenarbeit mit dem Weingut Jauslin wider. 2024 läutete die Familie Häusler die Übergabe an die nächste Generation ein – für eine Zukunft, die auf Tradition und Innovation baut.
   image:
     src: offenburg-detail.jpg
-    alt: Rebberg 'auf Offenburg'
+    alt: Rebberg auf Offenburg
 
 # Wine Section
 wine:
@@ -27,21 +29,22 @@ wine:
   image:
     src: 2023-magnum-label.png
     alt: Zweigelt Magnum
-  description:
-    - "Als Besonderheit präsentieren wir ab Frühjahr 2025 die limitierte 1.5 Liter Magnum Edition „Cuvée Albert" - Das perfekte Geschenk aus Muttenz, um jemanden eine Freude zu bereiten."
-  price: "CHF 50.- pro Flasche"
+  description: |
+    Als Besonderheit präsentieren wir ab Frühjahr 2025 die limitierte 1.5 Liter Magnum Edition „Cuvée Albert" – Das perfekte Geschenk aus Muttenz, um jemanden eine Freude zu bereiten.
+  price: CHF 50.- pro Flasche
   tasting:
     heading: Degustationsnotiz
-    note: "Der Wein entfaltet Aromen von reifen Kirschen, Zwetschgen und dunklen Beeren. Dezente Holznoten verleihen ihm Eleganz, während feine Tannine und eine lebendige Säure für Balance sorgen. Der Abgang ist lang und von subtiler Frucht geprägt."
+    note: |
+      Der Wein entfaltet Aromen von reifen Kirschen, Zwetschgen und dunklen Beeren. Dezente Holznoten verleihen ihm Eleganz, während feine Tannine und eine lebendige Säure für Balance sorgen. Der Abgang ist lang und von subtiler Frucht geprägt.
 
 # Contact Section
 contact:
   heading: Kontakt
-  intro: "Wenn Sie Wein bestellen möchten oder Fragen haben, bitte kontaktieren Sie uns:"
+  intro: Wenn Sie Wein bestellen möchten oder Fragen haben, bitte kontaktieren Sie uns
   email: info@haeusler-wein.ch
-  delivery_note: "Wir liefern in Muttenz kostenfrei aus."
+  delivery_note: Wir liefern in Muttenz kostenfrei aus.
 
 # Footer
 footer:
   year: 2025
-  text: "Häusler Wein. Alle Rechte vorbehalten."
+  text: Häusler Wein. Alle Rechte vorbehalten.
