@@ -1,17 +1,34 @@
 ---
 layout: default
 ---
+<section class="intro-section">
+    <div class="section-content">
+        <p class="site-intro">{{ site.data.content.intro.text }}</p>
+    </div>
+</section>
+
 <section id="wein" class="wine-section">
     <div class="section-content">
         <h2>{{ site.data.content.wine.heading }}</h2>
         <p class="wine-intro">{{ site.data.content.wine.intro }}</p>
-        <ul class="wine-details">
-        {%- for detail in site.data.content.wine.details %}
-            <li>{{ detail }}</li>
-        {%- endfor %}
-        </ul>
-        <p class="wine-bottle">{{ site.data.content.wine.bottle }}</p>
-        <p class="wine-price">{{ site.data.content.wine.price }}</p>
+
+        <div class="wine-presentation">
+            <div class="wine-image-container">
+                <!-- TODO: Replace with actual Jahrgang 2024 bottle image -->
+                <figure class="wine-placeholder" aria-label="Platzhalter für Weinflasche">
+                    <div class="placeholder-bottle"></div>
+                </figure>
+            </div>
+            <div class="wine-info">
+                <ul class="wine-details">
+                {%- for detail in site.data.content.wine.details %}
+                    <li>{{ detail }}</li>
+                {%- endfor %}
+                </ul>
+                <p class="wine-bottle">{{ site.data.content.wine.bottle }}</p>
+                <p class="wine-price">{{ site.data.content.wine.price }}</p>
+            </div>
+        </div>
 
         <div class="special-edition">
             <h3>{{ site.data.content.wine.special.heading }}</h3>
@@ -36,8 +53,7 @@ layout: default
 <section id="verkauf" class="verkauf-section">
     <div class="section-content">
         <h2>{{ site.data.content.verkauf.heading }}</h2>
-        <p>{{ site.data.content.verkauf.intro }}</p>
-        <p>{{ site.data.content.verkauf.delivery }}</p>
+        <p class="verkauf-text">{{ site.data.content.verkauf.text | newline_to_br }}</p>
         <p><a href="mailto:{{ site.data.content.verkauf.email }}">{{ site.data.content.verkauf.email }}</a></p>
     </div>
 </section>
@@ -53,10 +69,8 @@ layout: default
             </div>
             <div class="weinlage-image">
                 <img src="images/{{ site.data.content.weinlage.image.src }}" alt="{{ site.data.content.weinlage.image.alt }}" class="emblem">
-                <!-- TODO: add additional photo if available -->
-                <figure class="placeholder-image" aria-hidden="true">
-                    <!-- Placeholder for future vineyard photo -->
-                </figure>
+                <!-- TODO: Add human/vineyard photo when available -->
+                <figure class="photo-placeholder" aria-hidden="true"></figure>
             </div>
         </div>
     </div>
