@@ -99,6 +99,13 @@ main {
     margin-top: 2rem;
 }
 
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #A62A17;
+    letter-spacing: 1px;
+}
+
 .winery-intro {
     display: grid;
     grid-template-columns: 1.5fr 1fr;

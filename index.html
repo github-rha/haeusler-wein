@@ -1,9 +1,19 @@
 ---
 layout: default
 ---
-<section class="intro-section">
+<section id="ueber" class="about-section">
     <div class="section-content">
-        <p class="site-intro">{{ site.data.content.intro.text }}</p>
+        <h2>{{ site.data.content.about.heading }}</h2>
+        <div class="weinlage-content">
+            <div class="weinlage-text">
+            {%- for paragraph in site.data.content.about.paragraphs %}
+                <p>{{ paragraph | strip }}</p>
+            {%- endfor %}
+            </div>
+            <div class="weinlage-image">
+                <img src="images/{{ site.data.content.about.image.src }}" alt="{{ site.data.content.about.image.alt }}" class="emblem">
+            </div>
+        </div>
     </div>
 </section>
 
@@ -52,24 +62,6 @@ layout: default
         <h2>{{ site.data.content.verkauf.heading }}</h2>
         <p class="verkauf-text">{{ site.data.content.verkauf.text | newline_to_br }}</p>
         <p><a href="mailto:{{ site.data.content.verkauf.email }}">{{ site.data.content.verkauf.email }}</a></p>
-    </div>
-</section>
-
-<section id="weinlage" class="weinlage-section">
-    <div class="section-content">
-        <h2>{{ site.data.content.weinlage.heading }}</h2>
-        <div class="weinlage-content">
-            <div class="weinlage-text">
-            {%- for paragraph in site.data.content.weinlage.paragraphs %}
-                <p>{{ paragraph | strip }}</p>
-            {%- endfor %}
-            </div>
-            <div class="weinlage-image">
-                <img src="images/{{ site.data.content.weinlage.image.src }}" alt="{{ site.data.content.weinlage.image.alt }}" class="emblem">
-                <!-- TODO: Add human/vineyard photo when available -->
-                <figure class="photo-placeholder" aria-hidden="true"></figure>
-            </div>
-        </div>
     </div>
 </section>
 

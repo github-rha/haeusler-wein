@@ -4,18 +4,14 @@ header:
   logo_image: turmfalke.png
   logo_alt: Turmfalke Logo
   nav_items:
+    - id: ueber
+      label: Über uns
     - id: wein
       label: Wein
     - id: verkauf
       label: Verkauf
-    - id: weinlage
-      label: Weinlage
     - id: kontakt
       label: Kontakt
-
-# Introduction (Section 0)
-intro:
-  text: Häusler Wein - Zweigelt aus Muttenz seit 2007.
 
 # Wine Section
 wine:
@@ -50,9 +46,9 @@ verkauf:
     Wir liefern gratis in der Nordwestschweiz.
   email: info@haeusler-wein.ch
 
-# Weinlage Section
-weinlage:
-  heading: Weinlage
+# About Section (formerly Weinlage)
+about:
+  heading: Häusler Wein
   paragraphs:
     - |
       2005 wurden von den Familien Häusler und Schaffner in der Reblage «Auf Offenburg» in Muttenz 14 Aren Zweigelt angepflanzt. Die erste Ernte erfolgte 2007. Von Beginn an wird der Wein vom Weingut Jauslin gekeltert.
