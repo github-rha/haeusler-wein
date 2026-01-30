@@ -23,8 +23,8 @@ about:
 
 # Wine Section
 wine:
-  heading: Zweigelt Cuvée – Jahrgang 2024
-  intro: Ein trockener, eleganter Rotwein aus kleiner Produktion.
+  heading: Welchen Wein bietet Häusler Wein an?
+  intro: "Zweigelt Cuvée, Jahrgang 2024: Ein trockener Rotwein aus kleiner Produktion in Muttenz."
   image:
     src: 2024-zweigelt-cuvee.png
     alt: Zweigelt Cuvée Jahrgang 2024
@@ -54,8 +54,8 @@ wine:
 
 # Contact Section
 contact:
-  heading: Kontakt
-  intro: Bei Fragen zum Wein oder zur Verfügbarkeit freuen wir uns über eine Nachricht.
+  heading: Wie kann ich Häusler Wein kontaktieren?
+  intro: Für Bestellungen oder Fragen erreichen Sie uns per E-Mail.
   email: info@haeusler-wein.ch
 
 # Footer
