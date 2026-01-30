@@ -3,10 +3,17 @@ layout: default
 ---
 <section id="ueber" class="about-section">
     <div class="section-content">
-        <h2>{{ site.data.content.about.heading }}</h2>
-        {%- for paragraph in site.data.content.about.paragraphs %}
-        <p>{{ paragraph | strip }}</p>
-        {%- endfor %}
+        <div class="winery-intro">
+            <div class="winery-text">
+                <h2>{{ site.data.content.about.heading }}</h2>
+                {%- for paragraph in site.data.content.about.paragraphs %}
+                <p>{{ paragraph | strip }}</p>
+                {%- endfor %}
+            </div>
+            <div class="winery-image">
+                <img src="images/turmfalke.png" alt="Turmfalke Emblem" class="emblem about-image">
+            </div>
+        </div>
     </div>
 </section>
 

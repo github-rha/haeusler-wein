@@ -146,6 +146,11 @@ main {
     transition: transform 0.3s ease;
 }
 
+/* About section image: hidden on mobile (mobile-first) */
+.about-image {
+    display: none;
+}
+
 .emblem:hover {
     transform: scale(1.05);
 }
@@ -514,5 +519,33 @@ footer {
     
     .section-content {
         padding: 3rem 1.5rem;
+    }
+
+    /* Reduce header prominence on mobile */
+    header {
+        background-color: rgba(255, 255, 255, 0.95);
+    }
+
+    nav {
+        padding: 0.75rem 1rem;
+    }
+
+    .logo {
+        font-size: 1.4rem;
+    }
+
+    .menu-logo {
+        width: 32px;
+    }
+
+    nav a {
+        font-size: 0.95rem;
+    }
+}
+
+/* Desktop: show about section image (mobile-first) */
+@media (min-width: 769px) {
+    .about-image {
+        display: block;
     }
 }
