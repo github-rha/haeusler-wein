@@ -139,10 +139,24 @@ main {
     transform: scale(1.05);
 }
 
+/* Introduction Section */
+.intro-section {
+    padding-top: 2rem;
+}
+
+.intro-section .section-content {
+    padding-bottom: 0;
+}
+
+.site-intro {
+    text-align: center;
+    font-size: 1rem;
+    color: #575757;
+}
+
 /* Wine Section */
 .wine-section {
     padding: 2rem 0;
-    margin-top: 2rem;
 }
 
 .wine-section h2 {
@@ -156,7 +170,37 @@ main {
 .wine-intro {
     text-align: center;
     font-size: 1.1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.wine-presentation {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: start;
+    margin-bottom: 1rem;
+}
+
+.wine-image-container {
+    text-align: center;
+}
+
+.wine-placeholder {
+    margin: 0;
+}
+
+.placeholder-bottle {
+    width: 250px;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px dashed rgba(166, 42, 23, 0.3);
+    background-color: rgba(166, 42, 23, 0.02);
+}
+
+.wine-info ul.wine-details {
+    list-style: none;
+    margin: 0 0 1.5rem;
+    text-align: left;
 }
 
 ul.wine-details {
@@ -174,9 +218,13 @@ ul.wine-details li {
 
 .wine-bottle,
 .wine-price {
-    text-align: center;
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
+}
+
+.wine-info .wine-bottle,
+.wine-info .wine-price {
+    text-align: left;
 }
 
 .wine-price {
@@ -301,7 +349,8 @@ ul.wine-details li {
     gap: 1rem;
 }
 
-.placeholder-image {
+.placeholder-image,
+.photo-placeholder {
     /* Hidden placeholder for future image */
     display: none;
 }
@@ -367,6 +416,7 @@ footer {
 /* Responsive design */
 @media (max-width: 968px) {
     .winery-intro,
+    .wine-presentation,
     .special-edition-content,
     .weinlage-content {
         grid-template-columns: 1fr;
@@ -374,6 +424,21 @@ footer {
     }
 
     .winery-text {
+        text-align: center;
+    }
+
+    .wine-info {
+        text-align: center;
+    }
+
+    .wine-info ul.wine-details {
+        text-align: left;
+        max-width: 300px;
+        margin: 0 auto 1.5rem;
+    }
+
+    .wine-info .wine-bottle,
+    .wine-info .wine-price {
         text-align: center;
     }
 
