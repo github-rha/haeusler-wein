@@ -13,6 +13,10 @@ header:
     - id: kontakt
       label: Kontakt
 
+# Introduction (Section 0)
+intro:
+  text: Diese Website informiert über den Wein aus dem Haeusler Rebberg und dient dem direkten Verkauf.
+
 # Wine Section
 wine:
   heading: Haeusler Rotwein – Jahrgang 2024
@@ -38,8 +42,9 @@ wine:
 # Verkauf Section
 verkauf:
   heading: Verkauf
-  intro: Bestellungen gerne per E-Mail.
-  delivery: Abholung nach Absprache oder Versand innerhalb der Schweiz.
+  text: |
+    Abholung nach Absprache.
+    Wir liefern gratis in der Nordwestschweiz.
   email: info@haeusler-wein.ch
 
 # Weinlage Section
