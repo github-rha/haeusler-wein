@@ -24,14 +24,14 @@ about:
 # Wine Section
 wine:
   heading: Zweigelt Cuvée – Jahrgang 2024
-  intro: Ein trockener, eleganter Rotwein aus kleiner Produktion.
+  intro: "Ein trockener, eleganter Rotwein aus kleiner Produktion in Muttenz."
   image:
     src: 2024-zweigelt-cuvee.png
     alt: Zweigelt Cuvée Jahrgang 2024
   details:
     - "Rebsorten: 65 % Zweigelt, 35 % Diolinoir"
     - "Ausbau: 12 Monate in gebrauchten französischen Barriques"
-    - "Stil: trocken, leicht, zurückhaltend"
+    - "Stil: trocken, mittlerer Körper, ausgewogen"
   bottle: "Flasche: 0.5 l"
   price: "Preis: CHF 12.50"
   ordering:
@@ -54,8 +54,8 @@ wine:
 
 # Contact Section
 contact:
-  heading: Kontakt
-  intro: Bei Fragen zum Wein oder zur Verfügbarkeit freuen wir uns über eine Nachricht.
+  heading: Wie kann ich Häusler Wein kontaktieren?
+  intro: Für Bestellungen oder Fragen erreichen Sie uns per E-Mail.
   email: info@haeusler-wein.ch
 
 # Footer
