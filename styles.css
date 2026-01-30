@@ -279,6 +279,10 @@ ul.wine-details li {
     font-style: italic;
 }
 
+.wine-ordering {
+    margin-top: 1rem;
+}
+
 .availability-note {
     text-align: center;
     font-size: 1.1rem;

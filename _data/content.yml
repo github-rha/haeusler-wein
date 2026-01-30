@@ -8,10 +8,15 @@ header:
       label: Über uns
     - id: wein
       label: Wein
-    - id: verkauf
-      label: Verkauf
     - id: kontakt
       label: Kontakt
+
+# About Section
+about:
+  heading: Häusler Wein
+  paragraphs:
+    - |
+      2005 wurden von den Familien Häusler und Schaffner in der Reblage «Auf Offenburg» in Muttenz 14 Aren Zweigelt angepflanzt. Die erste Ernte erfolgte 2007. Später wurde rund ein Drittel der Fläche mit Diolinoir bestockt. Seit Beginn wird der Wein vom Weingut Jauslin gekeltert.
 
 # Wine Section
 wine:
@@ -26,7 +31,10 @@ wine:
     - "Stil: trocken, leicht, zurückhaltend"
   bottle: "Flasche: 0.5 l"
   price: "Preis: CHF 12.50"
-  availability: "Jahrgang 2024 ab Frühling erhältlich."
+  ordering: |
+    Abholung nach Absprache.
+    Wir liefern gratis in der Nordwestschweiz.
+  email: info@haeusler-wein.ch
   special:
     heading: Sonderabfüllung (früherer Jahrgang)
     name: Cuvée Albert – Magnum (1.5 l), Jahrgang 2023
@@ -34,31 +42,10 @@ wine:
     note: Eine erneute Produktion ist derzeit nicht geplant.
     price: "Preis: CHF 38.–"
     stock: Solange Vorrat.
+    ordering: Kontaktieren Sie uns bei Interesse.
     image:
       src: 2023-magnum-label.png
       alt: Cuvée Albert Magnum
-
-# Verkauf Section
-verkauf:
-  heading: Verkauf
-  text: |
-    Abholung nach Absprache.
-    Wir liefern gratis in der Nordwestschweiz.
-  email: info@haeusler-wein.ch
-
-# About Section (formerly Weinlage)
-about:
-  heading: Häusler Wein
-  paragraphs:
-    - |
-      2005 wurden von den Familien Häusler und Schaffner in der Reblage «Auf Offenburg» in Muttenz 14 Aren Zweigelt angepflanzt. Die erste Ernte erfolgte 2007. Von Beginn an wird der Wein vom Weingut Jauslin gekeltert.
-    - |
-      Später wurde rund ein Drittel der Fläche mit Diolinoir bestockt. Die daraus entstandene Cuvée erhielt nationale Anerkennung, unter anderem Auszeichnungen beim Grand Prix du Vin Suisse 2020 und 2021.
-    - |
-      2024 leitete die Familie Häusler die Übergabe an die nächste Generation ein.
-  image:
-    src: offenburg-detail.jpg
-    alt: Rebberg auf Offenburg
 
 # Contact Section
 contact:
