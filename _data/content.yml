@@ -4,45 +4,63 @@ header:
   logo_image: turmfalke.png
   logo_alt: Turmfalke Logo
   nav_items:
-    - id: ueber
-      label: Über uns
-    - id: unser-wein
-      label: Unser Wein
+    - id: wein
+      label: Wein
+    - id: verkauf
+      label: Verkauf
+    - id: weinlage
+      label: Weinlage
     - id: kontakt
       label: Kontakt
 
-# About Section
-about:
+# Wine Section
+wine:
+  heading: Haeusler Rotwein – Jahrgang 2024
+  intro: Ein trockener, eher leichter Rotwein aus kleiner Produktion.
+  details:
+    - "Rebsorten: 65 % Zweigelt, 35 % Diolinoir"
+    - "Ausbau: 12 Monate in gebrauchten französischen Barriques"
+    - "Stil: trocken, leicht, zurückhaltend"
+  bottle: "Flasche: 0.5 l"
+  price: "Preis: CHF 12.50"
+  availability: "Jahrgang 2024 ab Frühling erhältlich."
+  special:
+    heading: Sonderabfüllung (früherer Jahrgang)
+    name: Cuvée Albert – Magnum (1.5 l), Jahrgang 2023
+    description: Eine kleine Sonderabfüllung in sehr begrenzter Menge.
+    note: Eine erneute Produktion ist derzeit nicht geplant.
+    price: "Preis: CHF 38.–"
+    stock: Solange Vorrat.
+    image:
+      src: 2023-magnum-label.png
+      alt: Cuvée Albert Magnum
+
+# Verkauf Section
+verkauf:
+  heading: Verkauf
+  intro: Bestellungen gerne per E-Mail.
+  delivery: Abholung nach Absprache oder Versand innerhalb der Schweiz.
+  email: info@haeusler-wein.ch
+
+# Weinlage Section
+weinlage:
+  heading: Weinlage
   paragraphs:
     - |
-      2005 wurden von den Familien Häusler und Schaffner in der Reblage "Auf Offenburg" in Muttenz 14 Aren Zweigelt angepflanzt. Seit Beginn steht unser Weingut für Leidenschaft und Präzision. Die erste Ernte erfolgte 2007, von Anfang an gekeltert vom renommierten Weingut Jauslin. Später wurde ca. ein Drittel der Fläche mit Diolinoir bestockt und die resultierende Cuvée konnte nationale Anerkennung erzielen: Auszeichnungen beim Grand Prix du Vin Suisse 2020 und 2021.
+      2005 wurden von den Familien Häusler und Schaffner in der Reblage «Auf Offenburg» in Muttenz 14 Aren Zweigelt angepflanzt. Die erste Ernte erfolgte 2007. Von Beginn an wird der Wein vom Weingut Jauslin gekeltert.
     - |
-      Unsere Werte spiegeln sich in der Qualitätsarbeit im Rebberg und der Zusammenarbeit mit dem Weingut Jauslin wider. 2024 läutete die Familie Häusler die Übergabe an die nächste Generation ein – für eine Zukunft, die auf Tradition und Innovation baut.
+      Später wurde rund ein Drittel der Fläche mit Diolinoir bestockt. Die daraus entstandene Cuvée erhielt nationale Anerkennung, unter anderem Auszeichnungen beim Grand Prix du Vin Suisse 2020 und 2021.
+    - |
+      2024 leitete die Familie Häusler die Übergabe an die nächste Generation ein.
   image:
     src: offenburg-detail.jpg
     alt: Rebberg auf Offenburg
 
-# Wine Section
-wine:
-  heading: Unser Wein
-  name: Zweigelt Cuvée Albert 2023
-  image:
-    src: 2023-magnum-label.png
-    alt: Zweigelt Magnum
-  description: |
-    Als Besonderheit präsentieren wir ab Frühjahr 2025 die limitierte 1.5 Liter Magnum Edition „Cuvée Albert" – Das perfekte Geschenk aus Muttenz, um jemanden eine Freude zu bereiten.
-  price: CHF 50.- pro Flasche
-  tasting:
-    heading: Degustationsnotiz
-    note: |
-      Der Wein entfaltet Aromen von reifen Kirschen, Zwetschgen und dunklen Beeren. Dezente Holznoten verleihen ihm Eleganz, während feine Tannine und eine lebendige Säure für Balance sorgen. Der Abgang ist lang und von subtiler Frucht geprägt.
-
 # Contact Section
 contact:
   heading: Kontakt
-  intro: Wenn Sie Wein bestellen möchten oder Fragen haben, bitte kontaktieren Sie uns
+  intro: Bei Fragen zum Wein oder zur Verfügbarkeit freuen wir uns über eine Nachricht.
   email: info@haeusler-wein.ch
-  delivery_note: Wir liefern in Muttenz kostenfrei aus.
 
 # Footer
 footer:
