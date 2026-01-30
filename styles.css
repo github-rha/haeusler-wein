@@ -18,6 +18,10 @@ body {
     background-color: #fff;
 }
 
+a {
+    color: #A62A17;
+}
+
 /* Typography */
 h1, h2, h3, h4, .logo {
     font-family: 'Bodoni 72 Smallcaps', 'Georgia', serif;
@@ -275,10 +279,8 @@ ul.wine-details li {
     margin-bottom: 0.5rem;
 }
 
-.special-edition-details a,
-.special-edition-details a:link,
-.special-edition-details a:visited {
-    color: #A62A17;
+.special-edition-details a {
+    color: #A62A17 !important;
 }
 
 .stock-note {
@@ -286,12 +288,11 @@ ul.wine-details li {
 }
 
 .ordering-box {
+    display: table;
     margin-top: 1.5rem;
     padding: 1rem 1.5rem;
     border: 1px solid #c9a09a;
     background-color: #fff;
-    width: -webkit-fit-content;
-    width: fit-content;
 }
 
 .ordering-box p {
