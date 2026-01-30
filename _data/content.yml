@@ -14,6 +14,9 @@ header:
 # About Section
 about:
   heading: Häusler Wein
+  image:
+    src: offenburg-detail.jpg
+    alt: Reblage Auf Offenburg
   paragraphs:
     - |
       2005 wurden von den Familien Häusler und Schaffner in der Reblage «Auf Offenburg» in Muttenz 14 Aren Zweigelt angepflanzt. Die erste Ernte erfolgte 2007. Später wurde rund ein Drittel der Fläche mit Diolinoir bestockt. Seit Beginn wird der Wein vom Weingut Jauslin gekeltert.
@@ -21,7 +24,7 @@ about:
 # Wine Section
 wine:
   heading: Zweigelt Cuvée – Jahrgang 2024
-  intro: Ein trockener, eher leichter Rotwein aus kleiner Produktion.
+  intro: Ein trockener, eleganter Rotwein aus kleiner Produktion.
   image:
     src: 2024-zweigelt-cuvee.png
     alt: Zweigelt Cuvée Jahrgang 2024
@@ -39,7 +42,7 @@ wine:
   special:
     heading: Sonderabfüllung (früherer Jahrgang)
     name: Cuvée Albert – Magnum (1.5 l), Jahrgang 2023
-    description: Eine kleine Sonderabfüllung in sehr begrenzter Menge.
+    description: Eine kleine Sonderabfüllung in sehr begrenzter Menge zu Ehren von Albert Häusler.
     note: Eine erneute Produktion ist derzeit nicht geplant.
     price: "Preis: CHF 38.–"
     stock: Solange Vorrat.
