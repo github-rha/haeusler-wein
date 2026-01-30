@@ -21,6 +21,9 @@ intro:
 wine:
   heading: Zweigelt Cuvée – Jahrgang 2024
   intro: Ein trockener, eher leichter Rotwein aus kleiner Produktion.
+  image:
+    src: 2024-zweigelt-cuvee.png
+    alt: Zweigelt Cuvée Jahrgang 2024
   details:
     - "Rebsorten: 65 % Zweigelt, 35 % Diolinoir"
     - "Ausbau: 12 Monate in gebrauchten französischen Barriques"
