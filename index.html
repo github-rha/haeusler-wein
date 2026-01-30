@@ -27,8 +27,11 @@ layout: default
                 </ul>
                 <p class="wine-bottle">{{ site.data.content.wine.bottle }}</p>
                 <p class="wine-price">{{ site.data.content.wine.price }}</p>
-                <p class="wine-ordering">{{ site.data.content.wine.ordering | newline_to_br }}</p>
-                <p><a href="mailto:{{ site.data.content.wine.email }}">{{ site.data.content.wine.email }}</a></p>
+                <div class="ordering-box">
+                    <p><a href="mailto:{{ site.data.content.wine.ordering.email }}">{{ site.data.content.wine.ordering.email_label }}</a></p>
+                    <p>{{ site.data.content.wine.ordering.delivery }}</p>
+                    <p>{{ site.data.content.wine.ordering.pickup }}</p>
+                </div>
             </div>
         </div>
 

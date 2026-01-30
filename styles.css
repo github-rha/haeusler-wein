@@ -279,8 +279,24 @@ ul.wine-details li {
     font-style: italic;
 }
 
-.wine-ordering {
-    margin-top: 1rem;
+.ordering-box {
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    background-color: rgba(166, 42, 23, 0.05);
+    border-left: 3px solid #A62A17;
+}
+
+.ordering-box p {
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.ordering-box p:last-child {
+    margin-bottom: 0;
+}
+
+.ordering-box a {
+    color: #A62A17;
 }
 
 .availability-note {

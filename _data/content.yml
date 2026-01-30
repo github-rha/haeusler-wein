@@ -31,10 +31,11 @@ wine:
     - "Stil: trocken, leicht, zurückhaltend"
   bottle: "Flasche: 0.5 l"
   price: "Preis: CHF 12.50"
-  ordering: |
-    Abholung nach Absprache.
-    Wir liefern gratis in der Nordwestschweiz.
-  email: info@haeusler-wein.ch
+  ordering:
+    email_label: Bestellung via E-Mail
+    email: info@haeusler-wein.ch
+    delivery: Wir liefern gratis in der Nordwestschweiz.
+    pickup: Abholung nach Absprache.
   special:
     heading: Sonderabfüllung (früherer Jahrgang)
     name: Cuvée Albert – Magnum (1.5 l), Jahrgang 2023
