@@ -43,7 +43,8 @@ wine:
     note: Eine erneute Produktion ist derzeit nicht geplant.
     price: "Preis: CHF 38.–"
     stock: Solange Vorrat.
-    ordering: Kontaktieren Sie uns bei Interesse.
+    ordering_label: Kontaktieren Sie uns bei Interesse.
+    ordering_email: info@haeusler-wein.ch
     image:
       src: 2023-magnum-label.png
       alt: Cuvée Albert Magnum

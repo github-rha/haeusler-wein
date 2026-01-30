@@ -282,8 +282,7 @@ ul.wine-details li {
 .ordering-box {
     margin-top: 1.5rem;
     padding: 1rem 1.5rem;
-    background-color: rgba(166, 42, 23, 0.05);
-    border-left: 3px solid #A62A17;
+    border: 1px solid rgba(166, 42, 23, 0.3);
 }
 
 .ordering-box p {
