@@ -1,38 +1,62 @@
 ---
 layout: default
 ---
-<section id="ueber" class="about-section">
+<section id="wein" class="wine-section">
     <div class="section-content">
-        <div class="winery-intro">
-            <div class="winery-text">
-            {%- for paragraph in site.data.content.about.paragraphs %}
-                <p>{{ paragraph | strip }}</p>
-            {%- endfor %}
-            </div>
-            <div class="winery-image">
-                <img src="images/{{ site.data.content.about.image.src }}" alt="{{ site.data.content.about.image.alt }}" class="emblem">
+        <h2>{{ site.data.content.wine.heading }}</h2>
+        <p class="wine-intro">{{ site.data.content.wine.intro }}</p>
+        <ul class="wine-details">
+        {%- for detail in site.data.content.wine.details %}
+            <li>{{ detail }}</li>
+        {%- endfor %}
+        </ul>
+        <p class="wine-bottle">{{ site.data.content.wine.bottle }}</p>
+        <p class="wine-price">{{ site.data.content.wine.price }}</p>
+
+        <div class="special-edition">
+            <h3>{{ site.data.content.wine.special.heading }}</h3>
+            <div class="special-edition-content">
+                <div class="special-edition-image">
+                    <img src="images/{{ site.data.content.wine.special.image.src }}" alt="{{ site.data.content.wine.special.image.alt }}" class="wine-image">
+                </div>
+                <div class="special-edition-details">
+                    <h4>{{ site.data.content.wine.special.name }}</h4>
+                    <p>{{ site.data.content.wine.special.description }}</p>
+                    <p>{{ site.data.content.wine.special.note }}</p>
+                    <p class="wine-price">{{ site.data.content.wine.special.price }}</p>
+                    <p class="stock-note">{{ site.data.content.wine.special.stock }}</p>
+                </div>
             </div>
         </div>
+
+        <p class="availability-note">{{ site.data.content.wine.availability }}</p>
     </div>
 </section>
 
-<section id="unser-wein" class="wine-section">
+<section id="verkauf" class="verkauf-section">
     <div class="section-content">
-        <h2>{{ site.data.content.wine.heading }}</h2>
-        <div class="wine-presentation">
-            <div class="wine-image-container">
-                <img src="images/{{ site.data.content.wine.image.src }}" alt="{{ site.data.content.wine.image.alt }}" class="wine-image">
+        <h2>{{ site.data.content.verkauf.heading }}</h2>
+        <p>{{ site.data.content.verkauf.intro }}</p>
+        <p>{{ site.data.content.verkauf.delivery }}</p>
+        <p><a href="mailto:{{ site.data.content.verkauf.email }}">{{ site.data.content.verkauf.email }}</a></p>
+    </div>
+</section>
+
+<section id="weinlage" class="weinlage-section">
+    <div class="section-content">
+        <h2>{{ site.data.content.weinlage.heading }}</h2>
+        <div class="weinlage-content">
+            <div class="weinlage-text">
+            {%- for paragraph in site.data.content.weinlage.paragraphs %}
+                <p>{{ paragraph | strip }}</p>
+            {%- endfor %}
             </div>
-            <div class="wine-details">
-                <h3>{{ site.data.content.wine.name }}</h3>
-                <div class="wine-description">
-                    <p>{{ site.data.content.wine.description | strip }}</p>
-                    <p><b>Preis:</b> {{ site.data.content.wine.price }}</p>
-                </div>
-                <div class="tasting-notes">
-                    <h4>{{ site.data.content.wine.tasting.heading }}</h4>
-                    <p>{{ site.data.content.wine.tasting.note | strip }}</p>
-                </div>
+            <div class="weinlage-image">
+                <img src="images/{{ site.data.content.weinlage.image.src }}" alt="{{ site.data.content.weinlage.image.alt }}" class="emblem">
+                <!-- TODO: add additional photo if available -->
+                <figure class="placeholder-image" aria-hidden="true">
+                    <!-- Placeholder for future vineyard photo -->
+                </figure>
             </div>
         </div>
     </div>
@@ -43,6 +67,5 @@ layout: default
         <h2>{{ site.data.content.contact.heading }}</h2>
         <p>{{ site.data.content.contact.intro }}</p>
         <p><a href="mailto:{{ site.data.content.contact.email }}">{{ site.data.content.contact.email }}</a></p>
-        <p>{{ site.data.content.contact.delivery_note }}</p>
     </div>
 </section>
