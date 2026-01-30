@@ -18,6 +18,10 @@ body {
     background-color: #fff;
 }
 
+a {
+    color: #A62A17;
+}
+
 /* Typography */
 h1, h2, h3, h4, .logo {
     font-family: 'Bodoni 72 Smallcaps', 'Georgia', serif;
@@ -99,6 +103,13 @@ main {
     margin-top: 2rem;
 }
 
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #A62A17;
+    letter-spacing: 1px;
+}
+
 .winery-intro {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
@@ -139,6 +150,21 @@ main {
     transform: scale(1.05);
 }
 
+/* Introduction Section */
+.intro-section {
+    padding-top: 2rem;
+}
+
+.intro-section .section-content {
+    padding-bottom: 0;
+}
+
+.site-intro {
+    text-align: center;
+    font-size: 1rem;
+    color: #575757;
+}
+
 /* Wine Section */
 .wine-section {
     padding: 2rem 0;
@@ -146,24 +172,151 @@ main {
 
 .wine-section h2 {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     font-size: 2.5rem;
     letter-spacing: 1px;
+    color: #A62A17;
+}
+
+.wine-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
 }
 
 .wine-presentation {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    gap: 4rem;
+    gap: 3rem;
     align-items: start;
+    margin-bottom: 1rem;
 }
 
 .wine-image-container {
     text-align: center;
 }
 
+.wine-placeholder {
+    margin: 0;
+}
+
+.placeholder-bottle {
+    width: 250px;
+    height: 350px;
+    margin: 0 auto;
+    border: 1px dashed rgba(166, 42, 23, 0.3);
+    background-color: rgba(166, 42, 23, 0.02);
+}
+
+.wine-info ul.wine-details {
+    list-style: none;
+    margin: 0 0 1.5rem;
+    text-align: left;
+}
+
+ul.wine-details {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    text-align: left;
+}
+
+ul.wine-details li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+}
+
+.wine-bottle,
+.wine-price {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.wine-info .wine-bottle,
+.wine-info .wine-price {
+    text-align: left;
+}
+
+.wine-price {
+    font-weight: 600;
+}
+
+/* Special Edition Sub-block */
+.special-edition {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(166, 42, 23, 0.2);
+}
+
+.special-edition h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #A62A17;
+    margin-bottom: 1.5rem;
+}
+
+.special-edition-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.special-edition-image {
+    text-align: center;
+}
+
+.special-edition-details h4 {
+    font-size: 1.3rem;
+    color: #A62A17;
+    margin-bottom: 1rem;
+}
+
+.special-edition-details p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+}
+
+.special-edition-details a {
+    color: #A62A17 !important;
+}
+
+.stock-note {
+    font-style: italic;
+}
+
+.ordering-box {
+    display: table;
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    border: 1px solid #c9a09a;
+    background-color: #fff;
+}
+
+.ordering-box p {
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.ordering-box p:last-child {
+    margin-bottom: 0;
+}
+
+.ordering-box a {
+    color: #A62A17;
+}
+
+.availability-note {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    font-style: italic;
+}
+
 .wine-image {
-    width: 300px;
+    width: 250px;
     height: auto;
     transition: transform 0.3s ease;
     border: 1px solid black;
@@ -173,38 +326,69 @@ main {
     transform: scale(1.02);
 }
 
-.wine-details {
-    text-align: left;
+/* Verkauf Section */
+.verkauf-section {
+    background-color: rgba(166, 42, 23, 0.03);
+    text-align: center;
 }
 
-.wine-details h3 {
-    font-size: 2rem;
+.verkauf-section h2 {
     margin-bottom: 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 1px;
     color: #A62A17;
 }
 
-.wine-description {
+.verkauf-section p {
     font-size: 1.1rem;
     line-height: 1.8;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
-.tasting-notes {
-    background-color: rgba(166, 42, 23, 0.05);
-    padding: 2rem;
-    border-left: 3px solid #A62A17;
-}
-
-.tasting-notes h4 {
+.verkauf-section a {
     color: #A62A17;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-    letter-spacing: 0.5px;
 }
 
-.tasting-notes p {
+/* Weinlage Section */
+.weinlage-section {
+    background-color: #fff;
+}
+
+.weinlage-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #A62A17;
+}
+
+.weinlage-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.weinlage-text p {
+    font-size: 1.1rem;
     line-height: 1.8;
-    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.weinlage-text p:last-child {
+    margin-bottom: 0;
+}
+
+.weinlage-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.placeholder-image,
+.photo-placeholder {
+    /* Hidden placeholder for future image */
+    display: none;
 }
 
 /* Contact section */
@@ -214,14 +398,13 @@ main {
 }
 
 .contact-section h2 {
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 1px;
     color: #A62A17;
 }
 
 .contact-section a {
-    margin-bottom: 2rem;
     color: #A62A17;
 }
 
@@ -269,18 +452,38 @@ footer {
 /* Responsive design */
 @media (max-width: 968px) {
     .winery-intro,
-    .wine-presentation {
+    .wine-presentation,
+    .special-edition-content,
+    .weinlage-content {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 
-    .winery-text,
-    .wine-details {
+    .winery-text {
         text-align: center;
     }
 
-    .tasting-notes {
+    .wine-info {
+        text-align: center;
+    }
+
+    .wine-info ul.wine-details {
         text-align: left;
+        max-width: 300px;
+        margin: 0 auto 1.5rem;
+    }
+
+    .wine-info .wine-bottle,
+    .wine-info .wine-price {
+        text-align: center;
+    }
+
+    .special-edition-details {
+        text-align: center;
+    }
+
+    .weinlage-text {
+        text-align: center;
     }
 }
 

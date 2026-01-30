@@ -6,43 +6,54 @@ header:
   nav_items:
     - id: ueber
       label: Über uns
-    - id: unser-wein
-      label: Unser Wein
+    - id: wein
+      label: Wein
     - id: kontakt
       label: Kontakt
 
 # About Section
 about:
+  heading: Häusler Wein
   paragraphs:
     - |
-      2005 wurden von den Familien Häusler und Schaffner in der Reblage "Auf Offenburg" in Muttenz 14 Aren Zweigelt angepflanzt. Seit Beginn steht unser Weingut für Leidenschaft und Präzision. Die erste Ernte erfolgte 2007, von Anfang an gekeltert vom renommierten Weingut Jauslin. Später wurde ca. ein Drittel der Fläche mit Diolinoir bestockt und die resultierende Cuvée konnte nationale Anerkennung erzielen: Auszeichnungen beim Grand Prix du Vin Suisse 2020 und 2021.
-    - |
-      Unsere Werte spiegeln sich in der Qualitätsarbeit im Rebberg und der Zusammenarbeit mit dem Weingut Jauslin wider. 2024 läutete die Familie Häusler die Übergabe an die nächste Generation ein – für eine Zukunft, die auf Tradition und Innovation baut.
-  image:
-    src: offenburg-detail.jpg
-    alt: Rebberg auf Offenburg
+      2005 wurden von den Familien Häusler und Schaffner in der Reblage «Auf Offenburg» in Muttenz 14 Aren Zweigelt angepflanzt. Die erste Ernte erfolgte 2007. Später wurde rund ein Drittel der Fläche mit Diolinoir bestockt. Seit Beginn wird der Wein vom Weingut Jauslin gekeltert.
 
 # Wine Section
 wine:
-  heading: Unser Wein
-  name: Zweigelt Cuvée Albert 2023
+  heading: Zweigelt Cuvée – Jahrgang 2024
+  intro: Ein trockener, eher leichter Rotwein aus kleiner Produktion.
   image:
-    src: 2023-magnum-label.png
-    alt: Zweigelt Magnum
-  description: |
-    Als Besonderheit präsentieren wir ab Frühjahr 2025 die limitierte 1.5 Liter Magnum Edition „Cuvée Albert" – Das perfekte Geschenk aus Muttenz, um jemanden eine Freude zu bereiten.
-  price: CHF 50.- pro Flasche
-  tasting:
-    heading: Degustationsnotiz
-    note: |
-      Der Wein entfaltet Aromen von reifen Kirschen, Zwetschgen und dunklen Beeren. Dezente Holznoten verleihen ihm Eleganz, während feine Tannine und eine lebendige Säure für Balance sorgen. Der Abgang ist lang und von subtiler Frucht geprägt.
+    src: 2024-zweigelt-cuvee.png
+    alt: Zweigelt Cuvée Jahrgang 2024
+  details:
+    - "Rebsorten: 65 % Zweigelt, 35 % Diolinoir"
+    - "Ausbau: 12 Monate in gebrauchten französischen Barriques"
+    - "Stil: trocken, leicht, zurückhaltend"
+  bottle: "Flasche: 0.5 l"
+  price: "Preis: CHF 12.50"
+  ordering:
+    email_label: Bestellung via E-Mail
+    email: info@haeusler-wein.ch
+    delivery: Wir liefern gratis in der Nordwestschweiz.
+    pickup: Abholung nach Absprache.
+  special:
+    heading: Sonderabfüllung (früherer Jahrgang)
+    name: Cuvée Albert – Magnum (1.5 l), Jahrgang 2023
+    description: Eine kleine Sonderabfüllung in sehr begrenzter Menge.
+    note: Eine erneute Produktion ist derzeit nicht geplant.
+    price: "Preis: CHF 38.–"
+    stock: Solange Vorrat.
+    ordering_label: Kontaktieren Sie uns bei Interesse.
+    ordering_email: info@haeusler-wein.ch
+    image:
+      src: 2023-magnum-label.png
+      alt: Cuvée Albert Magnum
 
 # Contact Section
 contact:
   heading: Kontakt
-  intro: Wenn Sie Wein bestellen möchten oder Fragen haben, bitte kontaktieren Sie uns
+  intro: Bei Fragen zum Wein oder zur Verfügbarkeit freuen wir uns über eine Nachricht.
   email: info@haeusler-wein.ch
-  delivery_note: Wir liefern in Muttenz kostenfrei aus.
 
 # Footer
 footer:

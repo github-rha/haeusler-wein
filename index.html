@@ -3,35 +3,51 @@ layout: default
 ---
 <section id="ueber" class="about-section">
     <div class="section-content">
-        <div class="winery-intro">
-            <div class="winery-text">
-            {%- for paragraph in site.data.content.about.paragraphs %}
-                <p>{{ paragraph | strip }}</p>
-            {%- endfor %}
-            </div>
-            <div class="winery-image">
-                <img src="images/{{ site.data.content.about.image.src }}" alt="{{ site.data.content.about.image.alt }}" class="emblem">
-            </div>
-        </div>
+        <h2>{{ site.data.content.about.heading }}</h2>
+        {%- for paragraph in site.data.content.about.paragraphs %}
+        <p>{{ paragraph | strip }}</p>
+        {%- endfor %}
     </div>
 </section>
 
-<section id="unser-wein" class="wine-section">
+<section id="wein" class="wine-section">
     <div class="section-content">
         <h2>{{ site.data.content.wine.heading }}</h2>
+        <p class="wine-intro">{{ site.data.content.wine.intro }}</p>
+
         <div class="wine-presentation">
             <div class="wine-image-container">
                 <img src="images/{{ site.data.content.wine.image.src }}" alt="{{ site.data.content.wine.image.alt }}" class="wine-image">
             </div>
-            <div class="wine-details">
-                <h3>{{ site.data.content.wine.name }}</h3>
-                <div class="wine-description">
-                    <p>{{ site.data.content.wine.description | strip }}</p>
-                    <p><b>Preis:</b> {{ site.data.content.wine.price }}</p>
+            <div class="wine-info">
+                <ul class="wine-details">
+                {%- for detail in site.data.content.wine.details %}
+                    <li>{{ detail }}</li>
+                {%- endfor %}
+                </ul>
+                <p class="wine-bottle">{{ site.data.content.wine.bottle }}</p>
+                <p class="wine-price">{{ site.data.content.wine.price }}</p>
+                <div class="ordering-box">
+                    <p><a href="mailto:{{ site.data.content.wine.ordering.email }}">{{ site.data.content.wine.ordering.email_label }}</a></p>
+                    <p>{{ site.data.content.wine.ordering.delivery }}</p>
+                    <p>{{ site.data.content.wine.ordering.pickup }}</p>
                 </div>
-                <div class="tasting-notes">
-                    <h4>{{ site.data.content.wine.tasting.heading }}</h4>
-                    <p>{{ site.data.content.wine.tasting.note | strip }}</p>
+            </div>
+        </div>
+
+        <div class="special-edition">
+            <h3>{{ site.data.content.wine.special.heading }}</h3>
+            <div class="special-edition-content">
+                <div class="special-edition-image">
+                    <img src="images/{{ site.data.content.wine.special.image.src }}" alt="{{ site.data.content.wine.special.image.alt }}" class="wine-image">
+                </div>
+                <div class="special-edition-details">
+                    <h4>{{ site.data.content.wine.special.name }}</h4>
+                    <p>{{ site.data.content.wine.special.description }}</p>
+                    <p>{{ site.data.content.wine.special.note }}</p>
+                    <p class="wine-price">{{ site.data.content.wine.special.price }}</p>
+                    <p class="stock-note">{{ site.data.content.wine.special.stock }}</p>
+                    <p><a href="mailto:{{ site.data.content.wine.special.ordering_email }}">{{ site.data.content.wine.special.ordering_label }}</a></p>
                 </div>
             </div>
         </div>
@@ -43,6 +59,5 @@ layout: default
         <h2>{{ site.data.content.contact.heading }}</h2>
         <p>{{ site.data.content.contact.intro }}</p>
         <p><a href="mailto:{{ site.data.content.contact.email }}">{{ site.data.content.contact.email }}</a></p>
-        <p>{{ site.data.content.contact.delivery_note }}</p>
     </div>
 </section>
