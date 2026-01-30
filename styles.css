@@ -275,16 +275,19 @@ ul.wine-details li {
     margin-bottom: 0.5rem;
 }
 
+.special-edition-details a {
+    color: #A62A17;
+}
+
 .stock-note {
     font-style: italic;
 }
 
 .ordering-box {
-    display: block;
+    display: inline-block;
     margin-top: 1.5rem;
     padding: 1rem 1.5rem;
     border: 1px solid #c9a09a;
-    border-radius: 0;
     background-color: #fff;
 }
 
