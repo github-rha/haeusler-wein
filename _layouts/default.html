@@ -7,6 +7,22 @@
     <meta name="robots" content="index, follow">
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Winery",
+        "name": "Häusler Wein",
+        "description": "{{ site.description }}",
+        "foundingDate": "2005",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Muttenz",
+            "addressRegion": "Basel-Landschaft",
+            "addressCountry": "CH"
+        },
+        "email": "info@haeusler-wein.ch"
+    }
+    </script>
 </head>
 <body>
     <header>
