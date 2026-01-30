@@ -15,11 +15,11 @@ header:
 
 # Introduction (Section 0)
 intro:
-  text: Diese Website informiert über den Wein aus dem Haeusler Rebberg und dient dem direkten Verkauf.
+  text: Häusler Wein - Zweigelt aus Muttenz seit 2007.
 
 # Wine Section
 wine:
-  heading: Haeusler Rotwein – Jahrgang 2024
+  heading: Zweigelt Cuvée – Jahrgang 2024
   intro: Ein trockener, eher leichter Rotwein aus kleiner Produktion.
   details:
     - "Rebsorten: 65 % Zweigelt, 35 % Diolinoir"
