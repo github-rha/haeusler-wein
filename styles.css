@@ -275,7 +275,9 @@ ul.wine-details li {
     margin-bottom: 0.5rem;
 }
 
-.special-edition-details a {
+.special-edition-details a,
+.special-edition-details a:link,
+.special-edition-details a:visited {
     color: #A62A17;
 }
 
@@ -284,11 +286,12 @@ ul.wine-details li {
 }
 
 .ordering-box {
-    display: inline-block;
     margin-top: 1.5rem;
     padding: 1rem 1.5rem;
     border: 1px solid #c9a09a;
     background-color: #fff;
+    width: -webkit-fit-content;
+    width: fit-content;
 }
 
 .ordering-box p {
