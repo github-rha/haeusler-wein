@@ -32,18 +32,18 @@ wine:
     - "Rebsorten: 65 % Zweigelt, 35 % Diolinoir"
     - "Ausbau: 12 Monate in gebrauchten französischen Barriques"
     - "Stil: trocken, mittlerer Körper, ausgewogen"
-  bottle: "Flasche: 0.5 l"
-  price: "Preis: CHF 12.50"
+  bottle: "Flasche: 0.5 l (Karton: 8 Fl)"
+  price: "Preis: CHF 12.50 (Karton: 100.-)"
   ordering:
     email_label: Bestellung via E-Mail
     email: info@haeusler-wein.ch
-    delivery: Wir liefern gratis in der Nordwestschweiz.
+    delivery: Wir liefern gratis in Muttenz.
     pickup: Abholung nach Absprache.
   special:
     heading: Sonderabfüllung (früherer Jahrgang)
     name: Cuvée Albert – Magnum (1.5 l), Jahrgang 2023
     description: Eine kleine Sonderabfüllung in sehr begrenzter Menge zu Ehren von Albert Häusler.
-    note: Eine erneute Produktion ist derzeit nicht geplant.
+    note: Die Abfüllung in Magnum-Flaschen ist einmalig und sehr limitiert.
     price: "Preis: CHF 50.–"
     stock: Solange Vorrat.
     ordering_label: Kontaktieren Sie uns bei Interesse.
