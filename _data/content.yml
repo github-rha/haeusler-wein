@@ -10,6 +10,9 @@ header:
       label: Wein
     - id: kontakt
       label: Kontakt
+  blog_link:
+    label: Blog
+    url: https://blog.haeusler-wein.ch/
 
 # About Section
 about:
@@ -20,6 +23,8 @@ about:
   paragraphs:
     - |
       2005 wurden von den Familien Häusler und Schaffner in der Reblage «Auf Offenburg» in Muttenz 14 Aren Zweigelt angepflanzt. Die erste Ernte erfolgte 2007. Später wurde rund ein Drittel der Fläche mit Diolinoir bestockt. Seit Beginn wird der Wein vom Weingut Jauslin gekeltert.
+    - |
+      Folgen Sie unserem Blog <a href="https://blog.haeusler-wein.ch/">Wein Code</a> mit Updates aus dem Rebberg, Vibe Coding, und mehr.
 
 # Wine Section
 wine:

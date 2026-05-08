@@ -35,6 +35,7 @@
             {%- for item in site.data.content.header.nav_items %}
                 <li><a href="#{{ item.id }}">{{ item.label }}</a></li>
             {%- endfor %}
+                <li><a href="{{ site.data.content.header.blog_link.url }}">{{ site.data.content.header.blog_link.label }}</a></li>
             </ul>
         </nav>
     </header>
