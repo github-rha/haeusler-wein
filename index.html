@@ -38,6 +38,7 @@ layout: default
                     <p><a href="mailto:{{ site.data.content.wine.ordering.email }}">{{ site.data.content.wine.ordering.email_label }}</a></p>
                     <p>{{ site.data.content.wine.ordering.delivery }}</p>
                     <p>{{ site.data.content.wine.ordering.pickup }}</p>
+                    <p class="age-note">{{ site.data.content.wine.age_note }}</p>
                 </div>
             </div>
         </div>
@@ -55,6 +56,7 @@ layout: default
                     <p class="wine-price">{{ site.data.content.wine.special.price }}</p>
                     <p class="stock-note">{{ site.data.content.wine.special.stock }}</p>
                     <p><a href="mailto:{{ site.data.content.wine.special.ordering_email }}">{{ site.data.content.wine.special.ordering_label }}</a></p>
+                    <p class="age-note">{{ site.data.content.wine.age_note }}</p>
                 </div>
             </div>
         </div>
@@ -66,5 +68,21 @@ layout: default
         <h2>{{ site.data.content.contact.heading }}</h2>
         <p>{{ site.data.content.contact.intro }}</p>
         <p><a href="mailto:{{ site.data.content.contact.email }}">{{ site.data.content.contact.email }}</a></p>
+    </div>
+</section>
+
+<section id="rechtliches" class="legal-section">
+    <div class="section-content">
+        <h2>{{ site.data.content.legal.heading }}</h2>
+
+        <h3>{{ site.data.content.legal.impressum.heading }}</h3>
+        <p>{{ site.data.content.legal.impressum.name }}</p>
+        <p>{{ site.data.content.legal.impressum.address_line_1 }}<br>{{ site.data.content.legal.impressum.address_line_2 }}</p>
+        <p><a href="mailto:{{ site.data.content.legal.impressum.email }}">{{ site.data.content.legal.impressum.email }}</a></p>
+
+        <h3>{{ site.data.content.legal.datenschutz.heading }}</h3>
+        {%- for paragraph in site.data.content.legal.datenschutz.paragraphs %}
+        <p>{{ paragraph | strip }}</p>
+        {%- endfor %}
     </div>
 </section>

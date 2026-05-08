@@ -34,6 +34,7 @@ wine:
     - "Stil: trocken, mittlerer Körper, ausgewogen"
   bottle: "Flasche: 0.5 l (Karton: 8 Fl)"
   price: "Preis: CHF 12.50 (Karton: 100.-)"
+  age_note: Verkauf nur an Personen ab 18 Jahren.
   ordering:
     email_label: Bestellung via E-Mail
     email: info@haeusler-wein.ch
@@ -60,5 +61,28 @@ contact:
 
 # Footer
 footer:
-  year: 2025
+  year: 2026
   text: Häusler Wein. Alle Rechte vorbehalten.
+
+# Legal Section
+legal:
+  heading: Rechtliches
+  impressum:
+    heading: Impressum
+    name: Roland und Helena Häusler
+    address_line_1: Brühlweg 81
+    address_line_2: 4132 Muttenz
+    email: info@haeusler-wein.ch
+  datenschutz:
+    heading: Datenschutz
+    paragraphs:
+      - |
+        Verantwortlich für die Datenverarbeitung im Zusammenhang mit dieser Website sind Roland und Helena Häusler, Brühlweg 81, 4132 Muttenz. Anfragen zum Datenschutz richten Sie bitte an info@haeusler-wein.ch.
+      - |
+        Wir verarbeiten personenbezogene Daten nur, soweit dies zur Bearbeitung Ihrer Anfragen und Bestellungen erforderlich ist. Beim Bestellen per E-Mail erhalten wir Ihren Namen, Ihre Adresse und allenfalls weitere Angaben, die Sie uns mitteilen.
+      - |
+        Diese Daten werden ausschliesslich zur Auftragsabwicklung verwendet und nur an den Zustelldienst weitergegeben, soweit dies für die Lieferung notwendig ist. Eine darüber hinausgehende Weitergabe an Dritte erfolgt nicht.
+      - |
+        Diese Website wird auf GitHub Pages gehostet. Beim Aufruf der Seite werden technisch bedingt IP-Adressen und Zugriffsdaten in den Server-Logs von GitHub erfasst. Wir selbst setzen keine Cookies und kein Tracking ein.
+      - |
+        Sie haben jederzeit das Recht auf Auskunft, Berichtigung oder Löschung der zu Ihrer Person gespeicherten Daten. Wenden Sie sich dazu an die oben genannte E-Mail-Adresse.

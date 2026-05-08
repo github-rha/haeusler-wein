@@ -421,6 +421,44 @@ ul.wine-details li {
     line-height: 1.8;
 }
 
+.age-note {
+    font-style: italic;
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+}
+
+/* Legal section */
+.legal-section {
+    background-color: #fff;
+    border-top: 1px solid rgba(166, 42, 23, 0.2);
+}
+
+.legal-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #A62A17;
+}
+
+.legal-section h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: #A62A17;
+}
+
+.legal-section p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+    max-width: 800px;
+}
+
+.legal-section a {
+    color: #A62A17;
+}
+
 /* Footer */
 footer {
     background-color: #fff;
