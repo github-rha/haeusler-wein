@@ -65,6 +65,9 @@ contact:
   heading: Wie kann ich Häusler Wein kontaktieren?
   intro: Für Bestellungen oder Fragen erreichen Sie uns per E-Mail.
   email: info@haeusler-wein.ch
+  image:
+    src: fam-haeusler.jpeg
+    alt: Familie Häusler im Rebberg «Auf Offenburg»
 
 # Footer
 footer:

@@ -427,6 +427,15 @@ ul.wine-details li {
     line-height: 1.8;
 }
 
+.contact-image {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    margin: 2.5rem auto 0;
+    border-radius: 8px;
+}
+
 .age-note {
     font-style: italic;
     font-size: 0.95rem;
