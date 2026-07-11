@@ -1,3 +1,15 @@
 title: Häusler Wein
 description: Häusler Wein ist ein kleines Weingut in Muttenz (Baselland). Seit 2005 produzieren wir Zweigelt – eine Spezialität im Schweizer Weinbau – und Diolinoir aus der Reblage «Auf Offenburg».
 lang: de
+url: https://haeusler-wein.ch
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default social-card image for jekyll-seo-tag (og:image / twitter:image)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/turmfalke.png
